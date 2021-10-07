@@ -50,7 +50,7 @@
   {:margin "2rem auto"
    :padding "1rem 2rem 10rem 2rem"
    :flex-basis "100%"
-   :max-width "55rem"})
+   :max-width "60rem"})
 
 
 (def dropdown-style

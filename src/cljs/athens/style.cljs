@@ -103,15 +103,16 @@
 
 (def base-styles
   {:background-color (color :background-color)
-   :font-family      "IBM Plex Sans, Sans-Serif"
+   :font-family      "Source Code Pro, IBM Plex Sans, Sans-Serif"
    :color            (color :body-text-color)
    :font-size        "16px"                                 ; Sets the Rem unit to 16px
    :line-height      "1.5"
    ::stylefy/manual  [[:a {:color (color :link-color)}]
-                      [:h1 :h2 :h3 :h4 :h5 :h6 {:margin      "0.2em 0"
+                      [:h1 :h2 :h3 :h4 :h5 :h6 {:margin      "0em 0"
                                                 :line-height "1.3"
+                                                :font-family "IBM Plex Sans, Sans-Serif"
                                                 :color       (color :header-text-color)}]
-                      [:h1 {:font-size      "3.125em"
+                      [:h1 {:font-size      "2.125em"
                             :font-weight    600
                             :letter-spacing "-0.03em"}]
                       [:h2 {:font-size      "2.375em"
@@ -139,7 +140,7 @@
                              :display        "inline-flex"
                              :background     (color :body-text-color :opacity-lower)
                              :border-radius  "0.25rem"
-                             :padding        "0.25em 0.5em"}]
+                             :padding        "0em 0em"}]
                       [:img {:max-width "100%"
                              :height    "auto"}]
                       [":focus" {:outline-width 0}]

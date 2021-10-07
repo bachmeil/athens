@@ -21,9 +21,9 @@
 
 (def page-style
   {:display "flex"
-   :margin "5rem auto"
+   :margin "2rem auto"
    :flex-basis "100%"
-   :max-width "70rem"})
+   :max-width "120rem"})
 
 
 (def table-style

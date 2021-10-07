@@ -374,10 +374,10 @@
         selected-items (rf/subscribe [::select-subs/items])]
     (fn [_block _state]
       (let [font-size (case header
-                        1 "2.1em"
-                        2 "1.7em"
-                        3 "1.3em"
-                        "1em")]
+                        1 "1.7em"
+                        2 "1.5em"
+                        3 "1.4em"
+                        "1.25em")]
         [:div {:class "block-content" :style {:font-size font-size}}
          ;; NOTE: komponentit forces reflow, likely a performance bottle neck
          ;; When block is in editing mode or the editing DOM elements are rendered

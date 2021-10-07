@@ -61,9 +61,9 @@
 (defn init-browser
   []
   (reset! main-window (BrowserWindow.
-                        (clj->js {:width 800
+                        (clj->js {:width 1100
                                   :height 600
-                                  :minWidth 800 ; Minimum width before clipping in toolbar
+                                  :minWidth 1100 ; Minimum width before clipping in toolbar
                                   :minHeight 300
                                   :backgroundColor "#1A1A1A"
                                   :autoHideMenuBar true
