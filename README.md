@@ -1,3 +1,9 @@
+# My Fork of Athens
+
+This is my personal fork of Athens. The only changes I've made are a few small styling customizations. I maintain this fork because Athens does not currently have a way for the user to do customization. I posted something on my website explaining the changes I made.
+
+You're probably better off working with the main Athens repo. There's no reason at this time that anyone else should want to use my fork unless you really like my design choices.
+
 [![twitter](https://img.shields.io/twitter/follow/athensresearch?label=Follow&style=social)](https://twitter.com/athensresearch)
 [![build-status](https://img.shields.io/github/workflow/status/athensresearch/athens/build)](https://github.com/athensresearch/athens/actions)
 [![discord](https://img.shields.io/discord/708122962422792194?label=discord&logo=Discord)](https://discord.gg/GCJaV3V)
